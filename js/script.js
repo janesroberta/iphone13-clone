@@ -16,7 +16,7 @@ buttons.forEach((btn) => {
     button.querySelector(".color").classList.add("selected");
 
     image.classList.toggle("changing");
-    image.setAttribute("src", `img/iphone-${id}.jpg`);
+    image.setAttribute("src", `img/iphone_${id}.jpg`);
 
     setTimeout(() => {
       image.classList.toggle("changing");
